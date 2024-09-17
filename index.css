@@ -1,0 +1,246 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+/* css for header */
+
+header {
+  height: 80px;
+  /* background: lightgrey; */
+  border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background: white;
+}
+.logo_container {
+  width: 53px;
+  height: 80px;
+  /* background: lightcoral; */
+  padding-top: 15px;
+}
+
+.logo_container img {
+  width: 53px;
+}
+.nav_container {
+  width: 35%;
+  height: 80px;
+  /* background: yellow; */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.nav:hover {
+  border-bottom: 3px solid rgb(187, 44, 44);
+}
+.nav {
+  height: 80px;
+  line-height: 80px;
+}
+.nav_item a {
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 0px 8px;
+  letter-spacing: 0.3px;
+  color: black;
+}
+.nav_item sup {
+  font-size: 10px;
+  color: red;
+}
+.search_container {
+  width: 550px;
+  background-color: rgb(232, 223, 223);
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+.search_icon {
+  width: 50px;
+  height: 40px;
+  background: #f5f5f6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.search_input input {
+  width: 500px;
+  height: 40px;
+  padding: 10px;
+  border: 1px solid #f5f5f6;
+  outline: none;
+  color: #696e79;
+  background: #f5f5f6;
+  border-radius: 0px 10px 10px 0px;
+}
+.action_logo {
+  width: 200px;
+  /* background: hotpink; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.desktop_icon {
+  padding: 10px;
+  height: 80px;
+  font-size: 12px;
+  display: inline-block;
+  /* background: lightcyan; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.profile {
+  height: 83px;
+  border-bottom: 2px solid #f2f2f2;
+}
+.profile:hover {
+  border-bottom: 3px solid rgb(187, 44, 44);
+}
+
+/* end of header */
+
+/* main css */
+
+.banner_container {
+  width: 100%;
+  margin: 50px 0px;
+}
+.banner_img img {
+  width: 100%;
+}
+.category_heading {
+  text-transform: uppercase;
+  color: #3e4152;
+  letter-spacing: 0.15em;
+  font-size: 1.8em;
+  margin: 80px 0 60px 30px;
+  max-height: 5em;
+  font-weight: 700;
+}
+.latest_items {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  margin-top: 50px;
+  margin-bottom: 80px;
+  /* background: lightgoldenrodyellow; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.item img {
+  width: 211px;
+  height: 277px;
+}
+.items img {
+  width: 125px;
+  height: 160px;
+}
+.category_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.category_items {
+  /* width:90%; */
+  /* background: lightgrey; */
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* end of main css */
+
+
+/* css of footer */
+
+
+.footer_container{
+  display: flex;
+  justify-content: center;
+  margin-top:50px;
+  padding: 30px 0px 40px 0px;
+  /* background: rgb(219, 185, 202); */
+  
+}
+.footeritems{
+  display:flex;
+  justify-content: space-between;
+  width:75%;
+  flex-wrap: wrap;
+  /* background: lightgray; */
+  
+}
+.footer_col{
+  text-decoration: none;
+  color: #282c3f;
+  /* background: lightgreen; */
+  padding:10px;
+  
+
+}
+.footer_col h3{
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+.col_items{
+  display:flex;
+  flex-direction: column;
+}
+.col_items a{
+ 
+  text-transform: capitalize;
+   color: #696b79;
+    font-size: 15px;
+    text-decoration: none;
+    padding-bottom: 5px;
+    cursor: pointer;
+    line-height: normal;
+}
+.app_item{
+  display: flex;
+  flex-direction: row;
+}
+.col_items a img{
+  height:42px;
+  width:130px;
+  margin-left:10px;
+  display:inline;
+}
+.app_item .sociallink img{
+  width:25px;
+  height:25px;
+}
+.special_offer{
+  display: flex;
+  width:250px;
+  height:40px;
+  margin-bottom:50px;
+}
+.guarante_icon img{
+  width:48px;
+  height:40px;
+}
+.guarante_desc{
+  font-size: 15px;
+  margin-left:10px;;
+}
+.guarante_desc strong{
+  text-transform: uppercase;
+}
